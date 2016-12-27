@@ -12,6 +12,7 @@
 		634448221E0461CC00A2A6AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634448201E0461CC00A2A6AB /* Main.storyboard */; };
 		634448241E0461CC00A2A6AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634448231E0461CC00A2A6AB /* Assets.xcassets */; };
 		634448271E0461CC00A2A6AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634448251E0461CC00A2A6AB /* LaunchScreen.storyboard */; };
+		6362F0CE1E102C5B00D39424 /* EmojiClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362F0CD1E102C5B00D39424 /* EmojiClass.swift */; };
 		6385DE561E073D6F003C1BD6 /* EmojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6385DE551E073D6F003C1BD6 /* EmojiViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		634448231E0461CC00A2A6AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634448261E0461CC00A2A6AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634448281E0461CC00A2A6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6362F0CD1E102C5B00D39424 /* EmojiClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiClass.swift; sourceTree = "<group>"; };
 		6385DE551E073D6F003C1BD6 /* EmojiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 				6344481C1E0461CC00A2A6AB /* AppDelegate.swift */,
 				6344481E1E0461CC00A2A6AB /* ViewController.swift */,
 				6385DE551E073D6F003C1BD6 /* EmojiViewController.swift */,
+				6362F0CD1E102C5B00D39424 /* EmojiClass.swift */,
 				634448201E0461CC00A2A6AB /* Main.storyboard */,
 				634448231E0461CC00A2A6AB /* Assets.xcassets */,
 				634448251E0461CC00A2A6AB /* LaunchScreen.storyboard */,
@@ -94,7 +97,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = UglyFish;
 				TargetAttributes = {
 					634448181E0461CC00A2A6AB = {
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6385DE561E073D6F003C1BD6 /* EmojiViewController.swift in Sources */,
+				6362F0CE1E102C5B00D39424 /* EmojiClass.swift in Sources */,
 				6344481F1E0461CC00A2A6AB /* ViewController.swift in Sources */,
 				6344481D1E0461CC00A2A6AB /* AppDelegate.swift in Sources */,
 			);
@@ -185,6 +189,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,6 +240,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

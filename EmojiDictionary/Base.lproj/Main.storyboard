@@ -59,13 +59,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="🏤" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcQ-Em-Snw">
-                                <rect key="frame" x="73" y="34" width="229" height="264"/>
+                                <rect key="frame" x="74" y="72" width="229" height="264"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="208"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is so Stupid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7Y-T7-QMD">
-                                <rect key="frame" x="56.5" y="290" width="262" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Catogery : smiley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghh-rT-YRb">
+                                <rect key="frame" x="50" y="456" width="276" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="birthdate: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="035-Dg-UFG">
+                                <rect key="frame" x="107" y="540" width="162" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This is so Stupid" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7Y-T7-QMD">
+                                <rect key="frame" x="56" y="366" width="262" height="43"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -73,19 +85,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fcQ-Em-Snw" firstAttribute="top" secondItem="cdU-z2-XAu" secondAttribute="topMargin" constant="34" id="4y4-r9-8Wa"/>
-                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="top" secondItem="fcQ-Em-Snw" secondAttribute="bottom" constant="-8" id="8Jy-Jj-MnJ"/>
-                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" id="Mg0-w0-7u4"/>
-                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="top" secondItem="fcQ-Em-Snw" secondAttribute="bottom" constant="-8" id="aZY-8R-kEo"/>
-                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="top" secondItem="vRH-bn-rNZ" secondAttribute="bottom" constant="226" id="gHC-iw-CEV"/>
-                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="top" secondItem="vRH-bn-rNZ" secondAttribute="bottom" constant="226" id="gnZ-ng-Xgy"/>
-                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" id="gyE-bI-ypy"/>
-                            <constraint firstItem="fcQ-Em-Snw" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" id="mGQ-V9-Liy"/>
+                            <constraint firstItem="035-Dg-UFG" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" id="4Bt-k9-pZP"/>
+                            <constraint firstItem="fcQ-Em-Snw" firstAttribute="top" secondItem="cdU-z2-XAu" secondAttribute="topMargin" constant="72" id="4y4-r9-8Wa"/>
+                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" id="57y-Qc-eAO"/>
+                            <constraint firstItem="D7Y-T7-QMD" firstAttribute="top" secondItem="fcQ-Em-Snw" secondAttribute="bottom" constant="30" id="9GE-45-dyE"/>
+                            <constraint firstItem="Ghh-rT-YRb" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" id="UPE-Pn-vW5"/>
+                            <constraint firstItem="Ghh-rT-YRb" firstAttribute="top" secondItem="D7Y-T7-QMD" secondAttribute="bottom" constant="47" id="lES-EL-7ne"/>
+                            <constraint firstItem="fcQ-Em-Snw" firstAttribute="centerX" secondItem="cdU-z2-XAu" secondAttribute="centerX" constant="1" id="mGQ-V9-Liy"/>
+                            <constraint firstItem="035-Dg-UFG" firstAttribute="top" secondItem="Ghh-rT-YRb" secondAttribute="bottom" constant="41" id="nCg-1b-Kjy"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="DefnELabel" destination="D7Y-T7-QMD" id="tho-iQ-vix"/>
                         <outlet property="EmojiLabel" destination="fcQ-Em-Snw" id="WsB-9o-cLD"/>
+                        <outlet property="LabelCatogory" destination="Ghh-rT-YRb" id="0Bw-du-lbq"/>
+                        <outlet property="labelBirthday" destination="035-Dg-UFG" id="ViD-UY-TBN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GzT-XV-Jbw" userLabel="First Responder" sceneMemberID="firstResponder"/>

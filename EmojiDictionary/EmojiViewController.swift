@@ -9,64 +9,29 @@
 import UIKit
 
 class EmojiViewController: UIViewController {
-var emojivc = "no emoji yet"
     
+    
+    @IBOutlet weak var LabelCatogory: UILabel!
     
     @IBOutlet weak var DefnELabel: UILabel!
     
     @IBOutlet weak var EmojiLabel: UILabel!
     
+    @IBOutlet weak var labelBirthday: UILabel!
+    
+    var emojivc = Emojitransfer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        EmojiLabel.text = emojivc
         
-        if emojivc ==  "😍" {
-            DefnELabel.text = "I am in love with you"
-        }
-        
-        if emojivc ==  "😍" {
-            DefnELabel.text = "I am in love with you"
-        }
-        
-        if emojivc ==  "😍" {
-            DefnELabel.text = "I am in love with you"
-        }
-        
-        if emojivc ==  "😍" {
-            DefnELabel.text = "I am in love with you"
-        }
-        
-        if emojivc ==  "😍" {
-            DefnELabel.text = "I am in love with you"
-        }
-        
-        if emojivc ==  "😈" {
-            DefnELabel.text = "I am just horny Devil"
-        }
-        
-        if emojivc ==  "😤" {
-            DefnELabel.text = "what is up ya all"
-        }
-        
-        if emojivc ==  "😔" {
-            DefnELabel.text = "I am just dissapointed / i am sad"
-        }
-        
-        if emojivc ==  "😬" {
-            DefnELabel.text = "well this is akward"
-        }
-        
-        if emojivc ==  "😢" {
-            DefnELabel.text = "I am sad and about to cry"
-        }
-        
-        if emojivc ==  "😡" {
-            DefnELabel.text = "I am angry with you"
-        }
-        
-    }
+        EmojiLabel.text = emojivc.stringEmoji
+        labelBirthday.text = "birth year: \(emojivc.dob)"
+        LabelCatogory.text = emojivc.catogory
+        DefnELabel.text = emojivc.definition
+                                }
+    
  
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
